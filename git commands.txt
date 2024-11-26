@@ -131,6 +131,6 @@
 
 
 git rm --cached <files> # similar to adding files in the gitignore
-git restore --stages <files>  # removing from the present staging area or unstaging but will be traced 
+git restore --staged <files>  # removing from the present staging area or unstaging but will be traced 
 git reset . 
 git show <id or hash_key of alpha numeric >
