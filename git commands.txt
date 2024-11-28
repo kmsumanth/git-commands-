@@ -137,3 +137,5 @@ git show <id or hash_key of alpha numeric >
 ## assume that it is commited and u did some changes in the file now if i did not add to staging area and i want to revert to previous commit then use 
 git restore filename
 
+git reset and git revert that in reset the commit history will be deleted and in revert commit dont get deleted 
+
