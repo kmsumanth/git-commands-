@@ -136,6 +136,16 @@ git reset .
 git show <id or hash_key of alpha numeric >
 ## assume that it is commited and u did some changes in the file now if i did not add to staging area and i want to revert to previous commit then use 
 git restore filename
+git reset --hard # similar to above commad but removes from wd and staging area 
 
 git reset and git revert that in reset the commit history will be deleted and in revert commit dont get deleted 
+git reset HEAD^1
+
+
+git reset –hard HEAD~1 – After reset, It removes changes from staging area and working copy.
+git reset HEAD~1 – After reset, working tree will not be affected. But changes in staging area will be removed.
+git reset –soft HEAD~1 – After reset, working tree and index (staging area) is not affected.
+git reset –hard origin/master : resets the local branch to remote master branch
+
+
 
