@@ -134,3 +134,6 @@ git rm --cached <files> # similar to adding files in the gitignore
 git restore --staged <files>  # removing from the present staging area or unstaging but will be traced 
 git reset . 
 git show <id or hash_key of alpha numeric >
+## assume that it is commited and u did some changes in the file now if i did not add to staging area and i want to revert to previous commit then use 
+git restore filename
+
