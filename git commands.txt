@@ -148,4 +148,6 @@ git reset –soft HEAD~1 – After reset, working tree and index (staging area) 
 git reset –hard origin/master : resets the local branch to remote master branch
 
 
+git reflog ## to bring back the deleted commit 
+
 
