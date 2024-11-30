@@ -10,8 +10,8 @@
    10  git add .
    11  git status
    12  git commit -m "file deleted"
-   13  git config --global user.email "engsunny3365@gmmail.com"
-   14  git config --global user.name "sunnysavita10"
+   13  git config --global user.email "sumanth08@gmail.com"
+   14  git config --global user.name "sumanth"
    15  git commit -m "file deleted"
    16  clear
    17  git status
