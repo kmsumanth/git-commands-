@@ -150,4 +150,10 @@ git reset –hard origin/master : resets the local branch to remote master branc
 
 git reflog ## to bring back the deleted commit 
 
+when ur remote repo is ahead you and in ur local u have files and want to push to remote so first you have to pull it directly wont allow you to pull 
+git pull origin main --allow-unrelated-histories
+
+
+
+
 
