@@ -153,6 +153,10 @@ git reflog ## to bring back the deleted commit
 when ur remote repo is ahead you and in ur local u have files and want to push to remote so first you have to pull it directly wont allow you to pull 
 git pull origin main --allow-unrelated-histories
 
+git checkout <head hask key>
+
+git checkout <master or main> # it will checkout for the latest commit in that particular branch 
+
 error: src refspec main does not match any ## to branch is different 
 
 
